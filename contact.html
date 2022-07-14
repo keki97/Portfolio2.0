@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Portfolio: Contact</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Quiz</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li>
+          <div class="hamburger-menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="grid-container">
+        <h2 class="secondary-heading">My info</h2>
+        <div class="personal-info">
+          <p>First Name: Aleksandar</p>
+          <p>Last Name: Kekerovic</p>
+          <p>Date of birth: 21/10/1997</p>
+          <p>
+            Place of birth:
+            <a href="https://www.banjaluka.rs.ba/" target="_blank"
+              >Banja Luka</a
+            >
+          </p>
+          <p>Address: Kupreska 1a</p>
+          <p>
+            Email:
+            <a href="mailto:aleksandar.kekerovic97@gmail.com"
+              >aleksandar.kekerovic97@gmail.com</a
+            >
+          </p>
+          <p>Phone number: <a href="tel:+38766924387">066924000000000387</a></p>
+        </div>
+      </div>
+      <div class="grid-container margin-bottom-lg">
+        <h2 class="secondary-heading">Contact form</h2>
+        <form class="form" action="">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Input name please"
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="yourname@gmail.com"
+          />
+
+          <label for="phone-number">Phone number:</label>
+          <input
+            type="tel"
+            id="phone-number"
+            name="phone-number"
+            placeholder="06x/xxx-xxx"
+          />
+
+          <label for="message">Message:</label>
+          <textarea
+            name="opinion"
+            id="message
+            maxlength="200"
+            cols="30"
+            rows="4"
+          ></textarea>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>Copyright &copy;</p>
+      <div class="social-icons">
+        <a href="https://github.com/" target="”_blank”"
+          ><ion-icon class="icon" name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/" target="”_blank”"
+          ><ion-icon class="icon" name="logo-instagram"></ion-icon
+        ></a>
+
+        <a href="https://www.facebook.com/facebook/" target="”_blank”"
+          ><ion-icon class="icon" name="logo-facebook"></ion-icon
+        ></a>
+
+        <a href="https://www.youtube.com/" target="”_blank”"
+          ><ion-icon class="icon" name="logo-youtube"></ion-icon
+        ></a>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
