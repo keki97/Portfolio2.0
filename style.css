@@ -66,6 +66,13 @@ body {
   border-radius: 5px;
 }
 
+.close-btn {
+  color: #f5f5f7;
+  height: 24px;
+  width: 24px;
+  display: none;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
