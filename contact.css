@@ -35,7 +35,7 @@ body {
 }
 
 .form-container {
-  background-image: linear-gradient(45deg, #7b2f9b, #362a98);
+  background-image: linear-gradient(45deg, #4287f5, #4230e6);
   color: #f5f5f7;
   justify-self: start;
   border-top-left-radius: 0px;
@@ -128,7 +128,7 @@ input:-webkit-autofill:active {
 }
 
 .btn:hover {
-  background-color: #121a39;
+  background-color: #2e19a6;
   color: #f5f5f7;
   transform: scale(1.08);
   /* font-weight: normal; */
